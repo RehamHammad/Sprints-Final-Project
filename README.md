@@ -33,7 +33,7 @@ A responsive E-commerce web application built using HTML, CSS, JavaScript, and B
 
 🔗 Live Demo
 
-View Live Project  >> 
+View Live Project  >> https://rehamhammad.github.io/Sprints-Final-Project/
 
 🌱 Future Improvements
 
