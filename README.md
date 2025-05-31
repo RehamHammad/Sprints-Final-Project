@@ -27,7 +27,7 @@ A responsive E-commerce web application built using HTML, CSS, JavaScript, and B
 1. Clone the repository:
 
    ```bash
-   git clone 
+   git clone (https://github.com/RehamHammad/Sprints-Final-Project.git)
 
 2. Open the index.html file in your browser.
 
