@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <h3 class="text-center mt-4">Sign Up</h3>
+        <form action="" id="signUpForm" class="registerForm my-5 p-5 w-50 m-auto rounded">
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                <label for="name">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="userEmail" placeholder="Email" required>
+                <label for="userEmail">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="userPassword" placeholder="Password" required>
+                <label for="userPassword">Password</label>
+            </div>
+            <button type="submit" id="registerBtn" class="btn registerBtn rounded-pill">Sign Up</button>
+        </form>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
