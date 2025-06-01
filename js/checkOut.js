@@ -39,5 +39,5 @@ async function showCheckoutProducts() {
 showCheckoutProducts();
 
 document.getElementById("goBackToCart").addEventListener("click", () => {
-    window.location.href = "Html/cart.html";
+    window.location.href = "cart.html";
 });
