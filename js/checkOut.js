@@ -38,6 +38,6 @@ async function showCheckoutProducts() {
 
 showCheckoutProducts();
 
-document.getElementById("goBackToCart").addEventListener("click", () => {
-    window.location.href = "cart.html";
+document.getElementById("goBackToHome").addEventListener("click", () => {
+    window.location.href='../Html/checkOut.html'
 });
