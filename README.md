@@ -43,7 +43,8 @@ Integrate payment gateway (e.g., Stripe)
 
 User login and authentication
 
-Project-video >> https://drive.google.com/file/d/1_6jfPwmpBup-5R0aR9b4qE4g2a9Ge4he/view?usp=sharing 
+Project-video >> https://drive.google.com/file/d/1uFghHIVpWdo7UvEijjuPF31Wk_IvtLhG/view?usp=sharing
+
 
 👩‍💻 Author
 
