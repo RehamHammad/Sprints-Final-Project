@@ -72,3 +72,10 @@ const GoToHomeBtn=document.getElementById('goToHomeBtn');
 GoToHomeBtn.addEventListener('click',()=>{
     window.location.href="../Html/home.html"
 })
+
+/* ------------------------------------------------ */
+/* CheckOut  */
+const CheckOut=document.getElementById("goToCheckout");
+CheckOut.addEventListener('click',()=>{
+    window.location.href='../Html/checkOut.html'
+})

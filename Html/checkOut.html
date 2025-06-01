@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cart</title>
+    <title>CheckOut</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
@@ -17,34 +16,33 @@
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
-<body>
-    <section id="cart">
+     <body>
+    <section id="checkout">
         <div class="container">
-            <div class="cart-table">
+            <h2>Checkout Summary</h2>
+            <div class="checkout-table">
                 <table class="table table-striped">
-                  <thead>
-                    <tr>
-                        <th>PRODUCT</th>
-                         <th>PRICE</th>
-                          <th>QUANTITY</th>
-                           <th>TOTAL</th>
-                    </tr>
-                  </thead>
-                  <tbody id="tBody">
-                      
-                  </tbody>
+                    <thead>
+                        <tr>
+                            <th>PRODUCT</th>
+                            <th>PRICE</th>
+                            <th>QUANTITY</th>
+                            <th>TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody id="checkoutBody">
+                       
+                    </tbody>
                 </table>
+                <h3 id="grandTotal" class="text-end">Total: $0.00</h3>
             </div>
-            <button id="goToHomeBtn" class="btn shopBtn">Go To Home</button>
-            <button id="goToCheckout" class="btn checkOutBtn">goToCheckout</button>
+            <button id="goBackToCart" class="btn shopBtn">Back to Cart</button>
         </div>
     </section>
 
-
     <script src="../js/bootstrap.bundle.min.js"></script>
-    <script src="../js/home.js"></script>
-    <script src="../js/details.js"></script>
-    <script src="../js/cart.js"></script>
+    <script src="../js/checkout.js"></script>
 </body>
 </html>
