@@ -39,5 +39,5 @@ async function showCheckoutProducts() {
 showCheckoutProducts();
 
 document.getElementById("goBackToHome").addEventListener("click", () => {
-    window.location.href='../Html/checkOut.html'
+   window.location.href="../Html/home.html"
 });
